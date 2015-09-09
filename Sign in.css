@@ -1,0 +1,35 @@
+#wrapper {
+    background-color: gray;
+    text-align: left;
+    padding-left: 40px;
+
+}
+
+#wrapper h2 {
+    color: darkblue;
+    font-size: 30px;
+    font-family: FontomasCustomRegular calibri sans-serif;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-family: FontomasCustomRegular calibri sans-serif;
+    color: #ffffff;
+
+}
+
+[type='submit']{
+   font-size: large;
+    font-family: FontomasCustomRegular calibri sans-serif;
+    color: gray;
+}
+
+#wrapper p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+form .p a {
+    text-align: right;
+}

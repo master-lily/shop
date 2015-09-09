@@ -1,11 +1,15 @@
 .header{
+    font-family: calibri;
     background-color: plum;
+    color: darkgrey;
+    margin:  auto 50px;
+
 }
 
-.menu li{
-    list-style-type: none;
+.nav .nav-tab li{
+
     display: inline;
-    color: darkgrey;
+
     background-color: plum;
     font-style: italic;
     text-align: center;
@@ -13,18 +17,20 @@
 
 }
 
-button {
+.nav .nav-tab li a{
+    color: darkgrey;
+}
+
+ button {
     text-align: center;
     color: thistle;
     background-color: darkgrey;
     border: solid;
 }
 
-.menu a{
-     color: darkgrey;
- }
 
-.menu button{
+
+.nav .nav-tab li button{
     text-align: center;
     color: darkgrey;
     background-color: plum;
