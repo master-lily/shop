@@ -23,6 +23,7 @@ label {
    font-size: large;
     font-family: FontomasCustomRegular calibri sans-serif;
     color: gray;
+
 }
 
 #wrapper p {
@@ -30,6 +31,6 @@ label {
     margin-bottom: auto;
 }
 
-form .p a {
-    text-align: right;
+form p a {
+    float: right;
 }
