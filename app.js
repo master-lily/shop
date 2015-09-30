@@ -23,7 +23,7 @@ app.set('views engine', 'ejs');
 
 
 app.get('/', function (req, res) {
-    res.render('shop.html');
+    res.render('shop.html', 'footer.html', 'header.html');
 });
 
 app.get('/usersRegistration', function (req, res) {

@@ -1,0 +1,46 @@
+<!-- views/header.ejs -->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../shop.css" type="app.js">
+
+</head>
+
+<body>
+
+<h1>Home-lady's shop</h1>
+
+<div id="nav">
+    <div class="container">
+        <ul class="nav nav-tab">
+
+
+            <form action="/search" method="get">
+                <input type="search" name="q" value="search">
+                <input type="submit" name="Search" value="GO">
+            </form>
+
+            <p>Please,
+                <button type="button" class="btn btn-link"><a href="signIn.html" target="popup"
+                                                              onclick="window.open('signIn.html','signIn','width=600,height=400')">Sign
+                    in</a></button>
+            </p>
+
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Order&Delivery</a></li>
+            <li><a href="#"> Contact</a></li>
+            <li>
+                <button type="button" class="btn btn link"><img src="images/shopping cart.png"><a href="#">Cart</a>
+                </button>
+            </li>
+        </ul>
+
+    </div>
+</div>
+</body>
+</html>
